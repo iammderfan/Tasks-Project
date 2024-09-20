@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 0px #ccc;
+
+}
+.header_mid{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+}
+.menu ul li a{
+    color: black;
+   font-size: 20px;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url("images/the-town-bg-01.jpg") center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+}
+.banner i{
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+   
+}
+.banner i:hover{
+    color: blue;
+}
+.Introduction{
+    width: 100%;
+    padding: 80px 0px;
+}
+.Introduction_mid{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.Introduction_img{
+    flex-basis: 47%;
+}
+.Introduction_img img{
+    width: 100%;
+}
+.Introduction_content{
+    flex-basis: 47%;
+}
+.Introduction_content h2{
+    font-size: 50px;
+    color: blue;
+}
+.Introduction_content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+}
+.Introduction_content button{
+    padding: 15px 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+}
+.Introduction_content button:hover{
+background-color: red;
+}
+.Introduction-bottem{
+    width: 100%;
+    padding: 40px 0px;
+}
+.Introduction-bottem-mid{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+}
+.box{
+    width: 400px;
+    padding: 30px 5px;
+    text-align: center;
+}
+.box i{
+    font-size: 60px;
+    color: blue;
+}.box h3{
+    font-size: 25px;
+    padding: 35px 0px;
+    color: blue;
+}
+.box p{
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    line-height: 35px;
+}
+.our-work{
+    width: 100%;
+    padding: 50px 0px;
+
+}
+.our-work h2{
+    text-align: center;
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 30px;
+}
+.our-work p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+.our-work-mid{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    gap: 2px;
+    padding-top: 40px;
+    justify-content: center;
+    
+   
+}
+.our-work-box{
+    flex-basis: 15%;
+}
+.our-work-box img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    background: url("images/the-town-bg-02.jpg") center;
+    /* padding: 0px 220px; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer-mid{
+    width: 1170px;
+    margin: auto;
+}
+.footer-mid h3{
+    font-size: 40px;
+    color: white;
+    padding-top: 120px;
+
+}
+.footer-mid p{
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    line-height: 30px;
+}
+.boderline{
+    border-top: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.footer-mid-box{
+    width: 100%;
+    display: flex;
+}
+.footer-mid-box-left{
+    width: 75%;
+    line-height: 80px;
+}
+.footer-mid-box-right{
+    width: 25%;
+    line-height: 80px;
+}
+.footer-mid-box-left-icon i{
+    font-size: 40px;
+    color: white;
+}
+.footer-mid-box-right-icon i{
+    font-size: 40px;
+    color: white;
+}
+.footer-mid-box-left-icon span{
+   padding-left: 15px;
+    font-size: 16px;
+    color: white;
+}
+.footer-mid-box-right-icon span{
+    padding-left: 15px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: white;
+   
+}
+.end{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
